@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Week 5 Exercise: Bootstrap Intro</title>
+
+    <!--BOOTSTRAP-->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+   <!--CSS-->
+  <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+  <nav class="navbar navbar-expand-md navbar-primary bg-warning">
+  <div class= "container">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!--NAVBAR-->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="http://getbootstrap.com/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://getbootstrap.com/docs/4.1/getting-started/introduction/">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="http://getbootstrap.com/docs/4.1/components/alerts/">Alerts</a>
+          <a class="dropdown-item" href="http://getbootstrap.com/docs/4.1/components/badge/">Badge</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="http://getbootstrap.com/docs/4.1/components/buttons/">Buttons</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</div>
+</nav>
+
+<!--JUMBOTRON-->
+<div class="jumbotron text-white bg-secondary">
+  <h1 class="display-4">Hello, world! Use Bootstrap NOW!</h1>
+  <p class="lead">It will make your life so much easier!</p>
+  <hr class="my-4">
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="https://getbootstrap.com/" role="button">Learn more</a>
+  </p>
+</div>
+
+<!--CONTAINER-->
+<div class="container">
+		<div class="row text-center pb-5">
+			<div class="col-10 col-sm-8 col-md-4 col-lg-3 mx-auto mx-md-0 ml-md-auto p-3 bg-danger text-white">
+				<h2>ESPN</h2>
+				<img class="img-fluid" src="img/espn.jpg">
+				<a href="http://www.espn.com/" target="_blank"><button type="button" class="btn btn-warning my-5">Learn More</button></a>
+			</div>
+			<div class="col-10 col-sm-8 col-md-4 col-lg-3 mx-auto mx-md-0 p-3 bg-dark text-white">
+				<h2>Reddit</h2>
+				<img class="img-fluid" src="img/reddit.jpg">
+				<a href="https://www.reddit.com/" target="_blank"><button type="button" class="btn btn-warning my-5">Learn More</button></a>
+			</div>
+			<div class="col-10 col-sm-8 col-md-4 col-lg-3 mx-auto mx-md-0 mr-md-auto p-3 bg-primary text-white">
+				<h2>Twitch TV</h2>
+				<img class="img-fluid" src="img/twitchtv.jpg">
+				<a href="https://www.twitch.tv/" target="_blank"><button type="button" class="btn btn-warning my-5">Learn More</button></a>
+			</div>
+			<div class="col-10 col-sm-8 col-md-4 col-lg-3 mx-auto mx-md-0 mr-md-auto p-3 bg-success text-white">
+				<h2>Barnes n' Noble</h2>
+				<img class="img-fluid" src="img/barnesnnoble.jpg">
+				<a href="https://www.barnesandnoble.com/" target="_blank"><button type="button" class="btn btn-warning my-5">Learn More</button></a>
+			</div>
+		</div>
+</div>
+
+
+<!--SCRIPTS-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
